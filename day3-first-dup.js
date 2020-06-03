@@ -1,4 +1,4 @@
-const arrayWithDup = [8, 2, 1, 2, 5, 3]
+const arrayWithDup = [8, 2, 3, 1, 2, 5, 3]
 const arrayNoDup =   [8, 1, 2, 5, 3, 4]
 
 function firstDuplicate(nums) {
