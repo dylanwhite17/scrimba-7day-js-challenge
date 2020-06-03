@@ -15,6 +15,6 @@ function firstDuplicate(nums) {
     return -1
 }
 
-console.log(`${firstDuplicate(arrayWithDup)}, ${firstDuplicate(arrayNoDup)}`)
+console.log(`${firstDuplicate(arrayWithDup)}, ${firstDuplicate(arrayNoDup)}`) //2, -1
 
 
