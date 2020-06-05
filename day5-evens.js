@@ -14,7 +14,7 @@ const numIsEven = array => {
 // 3) Record how many even and odd numbers are in the array:
 const howManyBools = array => {
     let evenCount = 0, oddCount = 0, finalResult
-    array.map(y => y == true ? evenCount++ : oddCount++ )
+    array.map(y => y == true ? evenCount++ : oddCount++)
     finalResult = `Even: ${evenCount} Odd: ${oddCount}`
     return finalResult
 }
