@@ -12,7 +12,7 @@ const numIsEven = array => {
 }
 
 // 3) Record how many even and odd numbers are in the array:
-const howManyBools = (array) => {
+const howManyBools = array => {
     let evenCount = 0, oddCount = 0, finalResult
     array.map(y => y == true ? evenCount++ : oddCount++ )
     finalResult = `Even: ${evenCount} Odd: ${oddCount}`
@@ -21,7 +21,7 @@ const howManyBools = (array) => {
 
 // 4) Return true for numbers with only even digits, false for numbers with 1 or more odd digits:
 // THIS FUNCTION IS THE ONLY PART OF HE SCRIMBA - DAY 5 - JS Challenge: Even Digits Only:
-const evenDigitsOnly = (array) => {
+const evenDigitsOnly = array => {
     let evensResult = []
     for (let i = 0; i < array.length; i++) {
         evensResult.push(`${array[i]}`.toString().split('').every((z) => (z % 2 === 0)))
