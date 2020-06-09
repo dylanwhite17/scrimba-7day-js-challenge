@@ -1,7 +1,6 @@
 let myArray = ['abc', 'ded']
 
-function addBorder(array) {
-
+const addBorder = (array) => {
     let symbols = '*'.repeat(array.length + 5)
     array.unshift(symbols)
     array.push(symbols)
@@ -9,14 +8,14 @@ function addBorder(array) {
     for (let i = 1; i < array.length - 1; i++) {
         array[i] = '* '.concat(array[i], ' *')
     }
-
     return array
 }
 
-console.log(addBorder(myArray))
+//console.log (
+    addBorder(myArray)
+//)
 
-////Result adds border around letters:
-
+//// Result adds border around letters:
 // [ '*******',
 //   '* abc *',
 //   '* ded *',
