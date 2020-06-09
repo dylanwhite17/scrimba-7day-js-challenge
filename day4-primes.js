@@ -1,10 +1,10 @@
-//Create Array from 1 to num, get all the prime numbers from the array and then get their sum:
+// //Create Array from 1 to num, get all the prime numbers from the array and then get their sum:
 
 const num = 30
-let arr = []
-let result
 
-function sumAllPrimes(num) {
+const sumAllPrimes = (num) => {
+    let arr = []
+    let result
     for (let i = 2; i <= num; i++) {
         arr.push(i)
     }
@@ -19,3 +19,5 @@ function sumAllPrimes(num) {
 }
 
 sumAllPrimes(num)
+
+
