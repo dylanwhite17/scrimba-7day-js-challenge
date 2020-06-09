@@ -11,9 +11,9 @@ const addBorder = (array) => {
     return array
 }
 
-//console.log (
+console.log (
     addBorder(myArray)
-//)
+)
 
 //// Result adds border around letters:
 // [ '*******',
