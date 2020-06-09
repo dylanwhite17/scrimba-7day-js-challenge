@@ -1,11 +1,8 @@
-let num = 2345
+const num = 29
 //adds the sum of each digit in num:
-function addTwoDigits(num) {
-    const result = num.toString().split('').reduce((acc, cur) => acc + parseInt(cur), 0)
-    return result // 2 + 9 = 11
-}
+const addTwoDigits = num => num.toString().split('').reduce((acc, cur) => acc + parseInt(cur),0)
 
-console.log(addTwoDigits(num))
+console.log(addTwoDigits(num)) // 2 + 9 = 11
 
 
 
